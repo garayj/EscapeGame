@@ -14,7 +14,7 @@ BuildingEscape/Content/StarterContent/
 ######################
 *.VC.db
 *.ipch
-
+*.sln
 BuildingEscape/\.vs/BuildingEscape/v14/\.suo
 
 BuildingEscape/\.vs/BuildingEscape/v15/\.suo
