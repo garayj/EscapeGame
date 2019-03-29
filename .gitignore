@@ -6,13 +6,15 @@
 */DerivedDataCache
 */Intermediate
 */Saved
-BuildingEscape/Content/StarterContent/
+BuildingEscape/Content/StarterContent/Textures
+BuildingEscape/Content/StarterContent/HDRI
 
 
 ######################
 # VS Generated Files #
 ######################
 *.VC.db
+*suo
 *.ipch
 *.sln
 BuildingEscape/\.vs/BuildingEscape/v14/\.suo
