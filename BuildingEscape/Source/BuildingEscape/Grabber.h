@@ -38,5 +38,13 @@ private:
 		
 	// Ray-cast and release what's in your hands. 
 	void Release();
-	
+
+	//Find attached physics component
+	void FindPhysicsHandleComponent();
+
+	//Find attached input component	
+	void SetupInputComponent();
+
+	// Return hit for first physics body in reach
+	const FHitResult GetFirstPhysicsBodyInReach();
 };
