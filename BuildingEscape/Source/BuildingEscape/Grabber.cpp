@@ -112,7 +112,14 @@ void UGrabber::Grab() {
 			ComponentToGrab->GetOwner()->GetActorLocation(),
 			true //Allow rotation
 		);
+		///Updated for future releases of Unreal
+		//PhysicsHandle->GrabComponentAtLocation(
+		//	ComponentToGrab,
+		//	NAME_None,
+		//	ComponentToGrab->GetOwner()->GetActorLocation()
+		//);
 	}
+
 
 }
 
