@@ -33,6 +33,11 @@ private:
 	UInputComponent *InputComponent = nullptr;
 
 
+	// Returns the reach of the players arm to interact with objects.
+	FVector CalculateLineTraceEnd();
+	// Returns the players location.
+	FVector CalculateLineTraceStart();
+
 	// Ray-cast and grab what's in reach
 	void Grab();
 		
